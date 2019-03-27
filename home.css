@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin:0;
+}
+html, body {
+    height:100%;
+}
+#menu ul{
+    margin:5px;
+    background-color: darkgrey;
+    list-style:none;
+    text-align: center;
+}
+#menu li{
+    display: inline;
+    
+}
+#menu ul li a{
+    
+    padding: 10px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    color: white;
+    text-decoration: none;
+    border-bottom:3px solid black;
+    
+}
+#titulo{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+}
+footer {
+    font-weight: bold;
+    text-align: center;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:100%;
+}
+#idconteudo{
+    min-height:100%;
+    position:relative;
+    width:800px;
+}
+#home{
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 70%;
+   
+    text-align: justify;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+}
+
